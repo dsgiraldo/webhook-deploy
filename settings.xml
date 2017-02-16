@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<Root>
+	<access_token>here-token</access_token>
+
+	<remote_repository>url-repository</remote_repository>
+
+	<branch>name-branch</branch>
+
+	<target_dir>dir-host</target_dir>
+
+	<!-- <delete_files typecast="bool"></delete_files> -->
+
+	<exclude typecast="array">
+		<item_0>.git</item_0>
+		<item_1>wp-config.php</item_1>
+		<item_2>uploads/</item_2>
+		<item_3>database.php</item_3>
+		<!-- <item_4>wpml-cms-nav/</item_4>
+		<item_5>wpml-media/</item_5>
+		<item_6>wpml-sticky-links/</item_6>
+		<item_7>wpml-string-translation/</item_7>
+		<item_8>wpml-translation-management/</item_8>
+		<item_9>sitepress-multilingual-cms/</item_9> -->
+	</exclude>
+
+	<!-- <clean_up typecast="bool"></clean_up> -->
+
+	<!-- <time_limit typecast="int"></time_limit> -->
+
+	<!-- <use_composer typecast="bool"></use_composer> -->
+
+	<!-- <composer_options></composer_options> -->
+</Root>
